@@ -10,6 +10,10 @@ const ContactMe = () => {
         e.preventDefault();
 
         emailjs.sendForm('service_pso2fpg', 'template_6v1ja2l', e.target, 'user_gFNSv5IR32dBmdzIv4cEJ').then(res => {
+            e.target.name.value = "";
+            e.target.message.value = "";
+            e.target.user_email.value = "";
+
             console.log(res);
         }).catch(err => console.log(err));
     }
