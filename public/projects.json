@@ -1,38 +1,56 @@
 [
-    {
-      "id": 1,
-      "image": "https://www.linkpicture.com/q/watch-company12.png",
-      "name": "Watch Company App",
-      "description": "Responsive MERN Stack app and Implement Admin Management Page,Implement Authentication System with Firebase."
-    },
-    {
-      "id": 2,
-      "image": "https://www.linkpicture.com/q/tour11.png",
-      "name": "Tour the world App",
-      "description": "Responsive MERN Stack app and Implement Admin Management Page,Implement Authentication System with Firebase."
-    },
-    {
-      "id": 3,
-      "image": "https://www.linkpicture.com/q/dental10.png",
-      "name": "Dental Care App",
-      "description": "Implement two Authentication system like, email-password and Google Sign in,Fully Responsive for mobile, tablet and desktop version."
-    },
-    {
-      "id": 4,
-      "image": "https://www.linkpicture.com/q/education9.png",
-      "name": "Shikhsa- Education Service App",
-      "description": "Implement React router, Implement Services Page and use CSS animation effect, Create Fake date using JSON and Implement 404 page"
-    },
-    {
-      "id": 5,
-      "image": "https://www.linkpicture.com/q/movie-8.png",
-      "name": "Charity app",
-      "description": "Help world biggest charity by watching your favourite movies 2021. Donate to Girls Education,Total Donate this year: $500000"
-    },
-    {
-      "id": 6,
-      "image": "https://www.linkpicture.com/q/shopping7.png",
-      "name": "Myntra shopping app",
-      "description": "Help world biggest Mart by watching your favourite cloths 2021."
-    }
-  ]
+  {
+    "id": 1,
+    "image": "https://www.linkpicture.com/q/watch-company12.png",
+    "name": "Watch Company App",
+    "description": "Responsive MERN Stack app and Implement Admin Management Page,Implement Authentication System with Firebase,Faced c  a challenge to improve the Admin Management page and at last solve this after 1days of practice.",
+    "tec": "React, React Bootstrap, React Router, React Hook Form, Axios, CSS, React Ratings, Firebase Authentication, Nodejs, Express Js, Mongo DB, Heroku, Firebase Hosting.",
+    "github": "https://github.com/poojaranidey/watch-company-website",
+    "live": "https://watch-web-a532f.web.app/"
+  },
+  {
+    "id": 2,
+    "image": "https://www.linkpicture.com/q/tour11.png",
+    "name": "Tour the world App",
+    "description": "Responsive MERN Stack app and Implement Admin Management Page,Implement Authentication System with Firebase,Faced c  a challenge to improve the Admin Management page and at last solve this after 1days of practice.",
+    "tec": "React, React Bootstrap, React Router, React Hook Form, Axios, CSS, React Ratings, Firebase Authentication, Nodejs, Express Js, Mongo DB, Heroku, Firebase Hosting.",
+    "github": "https://github.com/poojaranidey/travel-website-client",
+    "live": "https://tour-the-world-72f8e.web.app/"
+  },
+  {
+    "id": 3,
+    "image": "https://www.linkpicture.com/q/dental10.png",
+    "name": "Dental Care App",
+    "description": "Implement two Authentication system like, email-password and Google Sign in,Fully Responsive for mobile, tablet and desktop version.Implements Context API, React Hooks, Custom Hooks.",
+    "tec": "React, Bootstrap5, React Router, CSS, Firebase Authentication, Firebase Hosting.",
+    "github": "https://github.com/poojaranidey/dental-care-website",
+    "live": "https://dental-web-route.web.app/"
+  },
+  {
+    "id": 4,
+    "image": "https://www.linkpicture.com/q/education9.png",
+    "name": "Shikhsa- Education Service App",
+    "description": "Implement React router, Implement Services Page and use CSS animation effect, Create Fake date using JSON and Implement 404 page",
+    "tec": "React, Bootstrap5, React Router, CSS, React Hook, Netlify",
+    "github": "https://github.com/poojaranidey/Education-website",
+    "live": "https://focused-joliot-9d80c8.netlify.app/"
+  },
+  {
+    "id": 5,
+    "image": "https://www.linkpicture.com/q/movie-8.png",
+    "name": "Charity app",
+    "description": "Help world biggest charity by watching your favourite movies 2021. Donate to Girls Education,Total Donate this year: $500000",
+    "tec": "HTML, Bootstrap5, CSS,JavaScript,Netlify",
+    "github": "https://github.com/poojaranidey/Donation-website",
+    "live": "https://kind-lalande-77b345.netlify.app/"
+  },
+  {
+    "id": 6,
+    "image": "https://www.linkpicture.com/q/shopping7.png",
+    "name": "Myntra shopping app",
+    "description": "Help world biggest Mart by watching your favourite cloths 2021.",
+    "tec": "HTML, Bootstrap5, CSS,JavaScript,Netlify",
+    "github": "https://github.com/poojaranidey/ranga-store",
+    "live": "https://confident-cori-6ec2d2.netlify.app/"
+  }
+]

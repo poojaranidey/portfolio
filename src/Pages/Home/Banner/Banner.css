@@ -1,6 +1,6 @@
 .banner {
-    height: 100vh;
-    background-image: url('https://wallup.net/wp-content/uploads/2017/03/28/443665-photography-nature-landscape-sunset-mountains-clouds-fjord-snow-sky-boat-sunlight-Norway-PGMC-748x471.jpg');
+    /* height: 100vh; */
+    background-image: url('https://images.unsplash.com/photo-1446329813274-7c9036bd9a1f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
@@ -15,7 +15,7 @@
     content: '';
     height: 100%;
     width: 100%;
-    background: rgba(26, 38, 66, 0.884);
+    background: rgba(94, 71, 25, 0.884);
     z-index: 1;
 }
 .Row{
@@ -23,7 +23,7 @@
     z-index: 2;
 }
 .custom_bg{
-    background: rgba(41, 55, 88, 0.658);
+    background: rgba(19, 16, 2, 0.658);
 }
 .griD{
     display: flex;
