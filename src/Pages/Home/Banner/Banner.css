@@ -1,0 +1,51 @@
+.banner {
+    height: 100vh;
+    background-image: url('https://wallup.net/wp-content/uploads/2017/03/28/443665-photography-nature-landscape-sunset-mountains-clouds-fjord-snow-sky-boat-sunlight-Norway-PGMC-748x471.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    object-fit: cover;
+    position: relative;
+    z-index: 0;
+}
+.banner:after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: rgba(26, 38, 66, 0.884);
+    z-index: 1;
+}
+.Row{
+    position: relative;
+    z-index: 2;
+}
+.custom_bg{
+    background: rgba(41, 55, 88, 0.658);
+}
+.griD{
+    display: flex;
+    flex-direction: column;
+}
+@media only screen and (max-width: 600px) {
+    .banner {
+        height: 0vh;
+        background-image: url('https://wallup.net/wp-content/uploads/2017/03/28/443665-photography-nature-landscape-sunset-mountains-clouds-fjord-snow-sky-boat-sunlight-Norway-PGMC-748x471.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        object-fit: cover;
+        position: relative;
+        z-index: 0;
+    }
+    .griD{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+  }
+
+::-webkit-scrollbar {
+    display: none;
+}
