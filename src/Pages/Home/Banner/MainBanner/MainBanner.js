@@ -6,7 +6,7 @@ import img from "../../../../images/myimg.jpg"
 
 const MainBanner = () => {
     return (
-        <div className="text-dark my-2 custom_bg" style={{ height: '70vh', textAlign: 'justify', overflow: 'hidden', borderRadius: '5px' }}>
+        <div className="text-dark my-2 custom_bg" style={{ textAlign: 'justify', overflow: 'hidden', borderRadius: '5px' }}>
             <div className="row">
                 <div className="col-md-7 p-5">
                     <h2 className="text-light" style={{ fontFamily: "'Oswald', sans-serif" }}>This is Pooja Dey, A Professional Frontend Developer</h2>
@@ -16,7 +16,7 @@ const MainBanner = () => {
                     </div>
                 </div>
                 <div className="col-md-5">
-                    <img className="h-100 w-100" src={img} alt="" />
+                    <img className=" w-75" style={{ height: '70vh' }} src={img} alt="" />
                 </div>
             </div>
         </div>

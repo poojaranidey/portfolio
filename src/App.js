@@ -7,6 +7,7 @@ import Skills from './Pages/Home/Banner/Skills/Skills';
 import Error from './Pages/Error/Error';
 import Details from './Pages/Home/Banner/Details/Details';
 import ContactMe from './Pages/Home/Banner/ContactMe/ContactMe';
+import Blogs from './Pages/Home/Banner/Blogs/Blogs';
 function App() {
   return (
     <div className="App">
@@ -26,6 +27,9 @@ function App() {
           </Route>
           <Route path="/skills">
             <Skills />
+          </Route>
+          <Route path="/blogs">
+            <Blogs />
           </Route>
           <Route path="/contactme">
             <ContactMe />

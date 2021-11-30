@@ -20,10 +20,10 @@ const Projects = () => {
                             <Card.Body>
                                 <Card.Title>{project?.name}</Card.Title>
                                 <Card.Text style={{ textAlign: 'justify' }}>
-                                    {project?.description}
+                                    {project?.description?.slice(0, 80)}...
 
                                 </Card.Text>
-                                <Link to="/projects"> <Button variant="warning" >More...</Button></Link>
+                                <Link to="/projects"> <Button variant="warning" >More</Button></Link>
                             </Card.Body>
                         </Card>
                     </Col>)

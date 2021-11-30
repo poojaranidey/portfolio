@@ -41,9 +41,9 @@ const AllProjects = () => {
                                                 <Card.Body>
                                                     <Card.Title>{project?.name}</Card.Title>
                                                     <Card.Text style={{ textAlign: 'justify' }}>
-                                                        {project?.description}
+                                                        {project?.description?.slice(0, 80)}
                                                     </Card.Text>
-                                                  
+
 
                                                     <Card.Text>
                                                         <Link to={`/details/${project?.id}`}><Button className="Warning">Detail</Button></Link>

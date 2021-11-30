@@ -2,55 +2,109 @@
   {
     "id": 1,
     "image": "https://www.linkpicture.com/q/watch-company12.png",
+    "img": "https://www.linkpicture.com/q/watch-web-a532f.web.app_home_1.png",
+    "pic": "https://www.linkpicture.com/q/watch-web-a532f.web.app_home-1.png",
     "name": "Watch Company App",
     "description": "Responsive MERN Stack app and Implement Admin Management Page,Implement Authentication System with Firebase,Faced c  a challenge to improve the Admin Management page and at last solve this after 1days of practice.",
     "tec": "React, React Bootstrap, React Router, React Hook Form, Axios, CSS, React Ratings, Firebase Authentication, Nodejs, Express Js, Mongo DB, Heroku, Firebase Hosting.",
     "github": "https://github.com/poojaranidey/watch-company-website",
-    "live": "https://watch-web-a532f.web.app/"
+    "live": "https://watch-web-a532f.web.app/",
+    "bullet": [
+      "Responsive MERN Stack app and Implement Admin Management Page",
+      "Implement Authentication System with Firebase",
+      "Faced c  a challenge to improve the Admin Management page and at last solve this after 1days of practice",
+      "Have a dashboard to control ",
+      " Will able to send a review"
+    ]
   },
   {
     "id": 2,
     "image": "https://www.linkpicture.com/q/tour11.png",
+    "img": "https://www.linkpicture.com/q/tour-the-world-72f8e.web.app_services.png",
+    "pic": "https://www.linkpicture.com/q/tour-the-world-72f8e.web.app_manageservice.png",
     "name": "Tour the world App",
     "description": "Responsive MERN Stack app and Implement Admin Management Page,Implement Authentication System with Firebase,Faced c  a challenge to improve the Admin Management page and at last solve this after 1days of practice.",
     "tec": "React, React Bootstrap, React Router, React Hook Form, Axios, CSS, React Ratings, Firebase Authentication, Nodejs, Express Js, Mongo DB, Heroku, Firebase Hosting.",
     "github": "https://github.com/poojaranidey/travel-website-client",
-    "live": "https://tour-the-world-72f8e.web.app/"
+    "live": "https://tour-the-world-72f8e.web.app/",
+    "bullet": [
+      "Responsive MERN Stack app and Implement Admin Management Page",
+      "Implement Authentication System with Firebase",
+      "Faced c  a challenge to improve the Admin Management page and at last solve this after 1days of practice",
+      ".The Place Order page display detailed information of the item, user has clicked.",
+      "on the Add A New Service, the admin will be able to add a brand new service. "
+    ]
   },
   {
     "id": 3,
     "image": "https://www.linkpicture.com/q/dental10.png",
+    "img": "https://www.linkpicture.com/q/dental-web-route.web.app_about.png",
+    "pic": "https://www.linkpicture.com/q/dental-web-route.web.app_about-1.png",
     "name": "Dental Care App",
     "description": "Implement two Authentication system like, email-password and Google Sign in,Fully Responsive for mobile, tablet and desktop version.Implements Context API, React Hooks, Custom Hooks.",
     "tec": "React, Bootstrap5, React Router, CSS, Firebase Authentication, Firebase Hosting.",
     "github": "https://github.com/poojaranidey/dental-care-website",
-    "live": "https://dental-web-route.web.app/"
+    "live": "https://dental-web-route.web.app/",
+    "bullet": [
+      "Implement two Authentication system like .",
+      "Fully Responsive for mobile, tablet and desktop version",
+      "Each service have a name, image, short description and a specific button.",
+      "Email and password based Authentication.it have the Registration and the login page.",
+      "Implements Context API, React Hooks, Custom Hooks"
+    ]
   },
   {
     "id": 4,
     "image": "https://www.linkpicture.com/q/education9.png",
+    "img": "https://www.linkpicture.com/q/focused-joliot-9d80c8.netlify.app_services.png",
+    "pic": "https://www.linkpicture.com/q/focused-joliot-9d80c8.netlify.app_trainers-2.png",
     "name": "Shikhsa- Education Service App",
     "description": "Implement React router, Implement Services Page and use CSS animation effect, Create Fake date using JSON and Implement 404 page",
     "tec": "React, Bootstrap5, React Router, CSS, React Hook, Netlify",
     "github": "https://github.com/poojaranidey/Education-website",
-    "live": "https://focused-joliot-9d80c8.netlify.app/"
+    "live": "https://focused-joliot-9d80c8.netlify.app/",
+    "bullet": [
+      "Implement React router",
+      "Implement Services Page",
+      "use CSS animation effect",
+      "Having 5 parts Home,Trainers,Services,About,Contact-us..",
+      "Create Fake date using JSON"
+    ]
   },
   {
     "id": 5,
     "image": "https://www.linkpicture.com/q/movie-8.png",
+    "img": "https://www.linkpicture.com/q/kind-lalande-77b345.netlify.app_-4.png",
+    "pic": "https://www.linkpicture.com/q/kind-lalande-77b345.netlify.app_-3.png",
     "name": "Charity app",
     "description": "Help world biggest charity by watching your favourite movies 2021. Donate to Girls Education,Total Donate this year: $500000",
     "tec": "HTML, Bootstrap5, CSS,JavaScript,Netlify",
     "github": "https://github.com/poojaranidey/Donation-website",
-    "live": "https://kind-lalande-77b345.netlify.app/"
+    "live": "https://kind-lalande-77b345.netlify.app/",
+    "bullet": [
+      "Help world biggest charity by watching your favourite movies 2021.",
+      "The Website is about donating the girls where we donate the money to the village charity",
+      "use CSS animation effect",
+      "Create Fake date using JSON",
+      "you can add movie to wishlist ,you can add the donate amount by clicking"
+    ]
   },
   {
     "id": 6,
     "image": "https://www.linkpicture.com/q/shopping7.png",
+    "img": "https://www.linkpicture.com/q/confident-cori-6ec2d2.netlify.app_-5.png",
+    "pic": "https://www.linkpicture.com/q/confident-cori-6ec2d2.netlify.app_-4_1.png",
     "name": "Myntra shopping app",
     "description": "Help world biggest Mart by watching your favourite cloths 2021.",
     "tec": "HTML, Bootstrap5, CSS,JavaScript,Netlify",
     "github": "https://github.com/poojaranidey/ranga-store",
-    "live": "https://confident-cori-6ec2d2.netlify.app/"
+    "live": "https://confident-cori-6ec2d2.netlify.app/",
+    "bullet": [
+      "the website is about ecommerce site",
+      "use CSS animation effect",
+      "Create Fake date using JSON",
+      "you can add product to cart ,you can add the amount by clicking",
+      "implemented search button"
+    ]
   }
 ]

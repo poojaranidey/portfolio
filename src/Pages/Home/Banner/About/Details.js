@@ -8,7 +8,9 @@ const Details = () => {
                 <div className="col-12 col-md-7">
                     <div className="custom_bg text-start text-light p-2">
                         <h4 style={{ fontFamily: "'Oswald', sans-serif" }}>Hi, I am Pooja Dey</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nobis minima, aspernatur nam asperiores recusandae? Est soluta explicabo reprehenderit ratione sunt expedita nesciunt eius praesentium ex maiores dicta aspernatur, ipsam adipisci distinctio iusto itaque quis totam sed quos sequi vel suscipit, harum alias. Recusandae, modi doloremque? Magni ipsa enim dolores?</p>
+                        <p>I am Pooja Rany Day graduated from Visvesvarya Technological University, karnataka,Bangalore,India.Besides I have been working with web development technologies since 1 year. I also have a course of 4 months on web development in Programming Hero. As you will see.And i am confident about React frontend developer with my skills
+                            I have completed several projects using frontend technologies like React,React-Bootstrap,Tailwind,Firebase,and raw css.Besides i have few project with Mern technologies are Mongodb,Node,Express,Cors etc
+                        </p>
                     </div>
                 </div>
                 <div className="col-12 col-md-5">

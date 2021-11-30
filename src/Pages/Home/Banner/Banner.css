@@ -8,6 +8,10 @@
     position: relative;
     z-index: 0;
 }
+.custom-height{
+    height:300px;
+  
+}
 .banner:after{
     position: absolute;
     top: 0;
@@ -25,6 +29,9 @@
 .custom_bg{
     background: rgba(19, 16, 2, 0.658);
 }
+.custom_bg-3{
+    background: rgba(27, 23, 4, 0.658);
+}
 .griD{
     display: flex;
     flex-direction: column;
@@ -38,6 +45,10 @@
         object-fit: cover;
         position: relative;
         z-index: 0;
+    }
+    .custom-height{
+        height:100px;
+       
     }
     .griD{
         display: flex;

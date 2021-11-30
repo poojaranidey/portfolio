@@ -17,7 +17,7 @@ const Details = () => {
                 setProjects(selected)
             })
     }, [id])
-    console.log(projects)
+    console.log(projects.bullet)
     return (
         <div className="banner">
             <div className="p-3">
@@ -28,24 +28,13 @@ const Details = () => {
                         <Socials />
                     </div>
                     <div className="col-12 col-md-9">
-                        <Card className="p-3" style={{ height: '95vh' }}>
+                        <Card className="p-3" style={{ height: '130vh' }}>
                             <div className="d-flex align-items-center justify-content-between mb-3">
                                 <Link to="/projects"><Button>Previous</Button></Link>
                                 <Button>Next</Button>
                             </div>
                             <Card.Body>
                                 <Card.Title>{projects?.name}</Card.Title>
-
-                            </Card.Body>
-                            <div className="row">
-                                <div className="col-12 col-md-8">
-                                    <Card.Img style={{ height: '40vh' }} variant="top" src={projects?.image} />
-                                </div>
-                                <div className="col-12 col-md-4">
-                                    <Card.Text className="p-3">
-                                        {projects?.description}
-                                    </Card.Text>
-                                </div>
                                 <Card.Text style={{ textAlign: 'justify' }}>
                                     Technology used:
                                     {projects?.tec}
@@ -55,9 +44,35 @@ const Details = () => {
 
                                 </Card.Text>
                                 <Card.Text style={{ textAlign: 'justify' }}>
-                                    Live link: <Link>  {projects?.live}</Link>
+                                    Live link: <Link>{projects?.live}</Link>
 
                                 </Card.Text>
+
+                            </Card.Body>
+                            <div className="row">
+                                <div className="col-12 col-md-3">
+                                    <Card.Img style={{ height: '40vh', width: '100%' }} variant="top" src={projects?.image} />
+                                </div>
+
+                                <div className="col-12 col-md-3">
+                                    <Card.Img style={{ height: '40vh', width: '100%' }} variant="top" src={projects?.pic} />
+                                </div>
+                                <div className="col-12 col-md-3">
+                                    <Card.Img style={{ height: '80vh' }} variant="top" src={projects?.img} />
+                                </div>
+                                <div className="col-12 col-md-3">
+                                    <Card.Text className="p-3">
+                                        <h2>Details:</h2>
+                                        <ul>
+                                            {
+                                                projects?.bullet?.map(a => <li>{a}</li>)
+                                            }
+
+                                        </ul>
+
+                                    </Card.Text>
+                                </div>
+
 
                             </div>
 
